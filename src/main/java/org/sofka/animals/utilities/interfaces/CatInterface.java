@@ -1,5 +1,8 @@
 package org.sofka.animals.utilities.interfaces;
 
+/**
+ * Interfaz que describe el comportamiento de un gato
+ */
 public interface CatInterface {
     
     public void meow();

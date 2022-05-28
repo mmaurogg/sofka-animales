@@ -5,11 +5,19 @@ import org.sofka.animals.utilities.Dog;
 import org.sofka.animals.utilities.MessagesAnimal;
 import org.sofka.animals.utilities.MyScanner;
 
+/** 
+ * Esta clase Extiende el menú de inicio y pregunta qué animal quiere crear
+ * @author Mauricio Gómez
+ * @version 1.0.0
+*/
 public class Menu {
 
     static MessagesAnimal message = MessagesAnimal.getInstance();
     static MyScanner scanner = MyScanner.getInstance();
     
+    /**
+     * Función que muestra las opciones de creación de animales
+     */
     public static void showMenu() {
 
         Dog dog;
